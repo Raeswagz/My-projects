@@ -1,0 +1,748 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+		margin: 0px;
+		 
+}
+
+
+#cover{
+	padding: 0px;
+}
+.nav{/***first header**/
+	background-color: rgba(89, 18, 37, 100);	
+	display: flex !important;
+	justify-content: space-between;
+	border-bottom: 1px solid white;
+	width: 100%;
+	margin: 0px;
+	height: 35px;
+}
+
+
+.warning{
+	font-size: 0.8em;
+	margin-left: 70px;
+	color: orange;
+	margin-top: 10px;
+}
+
+.media{
+	list-style: none;
+	margin-right: 20px;
+	margin-top: 10px
+}
+
+li{
+	margin-right: 10px;
+	float: left;
+}
+.media i{
+	color: orange;
+}
+
+/******first header ends******/
+ #Main-content, .jumbotron{
+ 	background: url("./Images/Dashboard (5).jpeg") no-repeat center center scroll;
+        background-size: cover;
+        background-attachment: scroll;
+        width: 100%;
+        height: 100%;  
+ }    
+   
+
+#transparent-nav{
+	position: fixed!important;
+	background-color: transparent !important;
+	display: flex !important;
+	justify-content: space-between !important;
+	height: auto;
+	z-index: 9999;
+}
+
+#wrapper{
+	padding: 0;
+}
+
+#logo-container{
+	width: 50px;
+	height: 75px !important;
+	margin-right: 10px;
+
+}
+
+
+
+.navbar-brand img{
+	border: 0;
+	margin: 0;
+}
+
+.nav-link{
+	color: orange !important;
+}
+
+#welcomepage{
+	height: 600px;
+}
+
+
+
+div#welcomepage{
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+ 
+.welcome{
+	color: white;
+	position: relative;
+	
+	margin-bottom: 20px;
+	font-size: clamp(1.5rem, 6vw, 4rem);
+	font-family: Helvetica;
+	font-weight: bold;
+	
+
+}
+
+#divider{
+	position: relative;
+	top: 100px;
+	background-color: orange;
+}
+
+.offers{
+	position: relative;
+	top: 120px;
+
+}
+
+.offers li{
+	list-style: none;
+	width: 100%;
+	display: inline-block;
+	margin-bottom: 15px;
+
+
+}
+
+.offers span {
+	font-family: Georgia;
+	font-size: 1.1em;
+	color: white;
+
+}
+
+.open{
+	position: relative;
+	height: 50px;
+	width: 200px;
+	border-radius: 20px;
+	background-color: orange;
+	border: 0;
+}
+
+#moving-images{
+	position: relative;
+	background-color: white;
+	display: block;
+	height: 880px;
+}
+
+#carouselExampleControls{
+	height: 200px;
+}
+
+.carousel-inner img{
+	height: 200px;
+	width: 50px;
+
+}
+
+#message-wrapper{
+	height: 100px;
+	width: 350px;
+	margin: 70px;
+	position: relative;
+	top: 0px;
+}
+
+.main-wrapper{
+	width: 500px;
+	height: 760px;
+	position: absolute;
+	top: 100px;
+	left: 650px;	
+}
+
+
+.photo-wrapper{
+	border: 1px solid green;
+	width: 500px;
+	position: absolute;
+	box-shadow: 0px 9px 40px 0px rgb(0 0 0 / 50%);
+}
+
+figcaption{
+	position: absolute;
+	bottom: 0px;
+}
+
+.about{
+	height: 50px;
+	width: 200px;
+	background-color: orange;
+	border: 0;
+}
+
+#contactinfo-environ{
+	display: block;
+	height: 100%;
+	background-color: black;
+	padding: 220px;
+}
+
+#contactinfo-wrapper{
+	background-color: rgba(69, 89, 122, 0.6);
+}
+
+#deepest{
+	text-align: center;
+	padding-top: 50px;
+	padding-right:  80px;
+	padding-left: 80px;
+	padding-bottom: 50px;
+}
+
+.quote{
+	font-size: 50px;
+	color: orange;
+}
+
+#deepest h2{
+	color: white;
+}
+
+.guiding{
+	color: orange;
+}
+
+#contactinfo{
+	padding-top: 90px;
+	padding-right:  80px;
+	padding-left: 80px;
+	padding-bottom: 50px;
+}
+
+#contactinfo h2{
+	color: orange;
+	margin-bottom: 20px;
+}
+
+#contactinfo p{
+	font-size: 1.2em;
+	color: white;
+}
+
+#contactinfo i{
+	color: orange;
+}
+
+#contactinfo div{
+	line-height: 2em;
+	font-size: 1.2em;
+	color: white;
+}
+
+#departments-row{
+	
+	background-color: White;
+	padding: 50px;
+	
+}
+
+
+#departments-row h1{
+	font-size: 4em !important;
+}
+
+
+.D, .A, .S{
+	margin-left: 50px;
+
+}
+
+.line-breaker{
+	width: 250px;
+	height: 2px;
+	background-color: black;
+}
+
+#ofure-container{
+	background-color: black;
+	height: auto;
+	width: 100%;
+}
+
+#faceofchestropera{
+	padding: 150px 90px 150px 90px;
+}
+#faceofchestropera h1{
+	color: white;
+	font-size: 4em;
+	padding-top: 20px;
+	justify-content: center;
+}
+
+.brochure-wrapper{
+	margin-top: 80px;
+	margin-bottom: 30px;
+}
+
+.ofure-wrapper{
+	height: 320px;
+}
+
+#brochure p{
+  text-align: center;
+}
+
+.social-wrapper{
+	margin-top: 350px;
+	margin-bottom: 50px; 
+}
+
+#social-media button{
+	display: block;
+	margin-bottom: 15px;
+	margin-left: 90px;
+	height: 40px;
+	border: 2px solid white;
+	background-color: black;
+	color: white;
+}
+
+.twittericon{
+	margin-left: 110px;
+}
+
+
+/*****mobile*******/
+@media (max-width: 576px){
+
+#Mobile{
+  padding-bottom: 20px;
+}
+
+#Tablet{
+  display: none;
+  
+}
+
+#Desktop{
+  display: none; 
+} 
+
+ 
+.navbar-nav{
+
+	background-color: black !important;
+	margin: 0px !important;
+	width: 100%;
+}
+
+.navbar-nav{
+	position: relative;
+	margin: 0px;
+}
+
+#logo-container{
+	margin-right: 370px;
+
+}
+
+
+.nav-item {
+	border-bottom: 0.6px solid orange !important;
+	display: block;
+	border-width: 100%;
+	margin: 0;
+}
+
+.welcome{
+	top: 0px;
+
+}
+
+#divider{
+	width: 70px;
+	height: 4px;
+	top: 0px;
+}
+
+
+.offers{
+		top: 7px;
+		margin: 0px;
+		padding: 0px;
+}
+
+#moving-images{
+	position: relative;
+	background-color: white;
+	display: block;
+	height: 1130px;
+}
+
+#carouselExampleControls{
+	height: 10px;
+}
+
+#small img{
+	margin: 0px 50px 0px 200px !important;
+	height: 200px;
+	width: 100px !important;
+}
+
+#message-wrapper{
+	position: absolute;
+	top: 200px;
+}
+
+.main-wrapper{
+	position: absolute;
+	top: 500px;
+	left: 110px;
+	width: 300px;
+	height: 620px;
+}
+
+.photo-wrapper{
+	position: absolute;
+	width: 300px;
+	height: 500px;
+}
+
+.photo-wrapper img{
+	width: 298px;
+	height: 498px;
+}
+
+#contactinfo-environ{
+	display: block;
+	height: 100%;
+	background-color: black;
+	padding: 70px;
+}
+
+#contactinfo-wrapper{
+	width: 100%;
+}
+
+#contactinfo{
+	text-align: left;
+	}	
+
+#deepest, #contactinfo{
+	padding: 50px; 
+	 
+	font-size: clamp(0.6rem, 2.5vw, 2rem);
+}
+
+#departments-row i{
+	font-size: 3em;
+	color: orange;
+	margin-left: 70px;
+}
+
+#administrators i{
+	margin-left: 80px;
+}
+
+#departments-row h1{
+	margin-left: 30px;
+}
+
+#administrators h1{
+	margin-left: 25px;
+}
+ div #departments, div #administrators, div #service{
+	width: 300px;
+	padding-left: 70px;
+}
+}
+
+
+/********Bigger mobile view only**********/
+@media (min-width: 577px) and (max-width: 767px){
+#Tablet{
+  display: block;
+  margin-right: 50px;
+} 
+
+#Mobile{
+  display: none;
+}
+
+
+#navbarSupportedContent{
+	margin-left: 10px;
+}
+
+a.nav-link{
+	padding: 0px;
+}
+
+li.nav-item{
+	margin: 0px;
+}
+
+.welcome{
+	top: 0px;
+
+}
+
+#divider{
+	width: 70px;
+	height: 4px;
+	top: 0px;
+}
+
+
+.offers{
+		top: 7px;
+		margin: 0px;
+		padding: 0px;
+}
+
+#moving-images{
+	position: relative;
+	background-color: white;
+	display: block;
+	height: 1130px;
+}
+
+#carouselExampleControls{
+	height: 10px;
+}
+
+#small img{
+	margin: 0px 50px 0px 200px !important;
+	height: 200px;
+	width: 100px !important;
+}
+
+#message-wrapper{
+	position: absolute;
+	top: 200px;
+}
+
+.main-wrapper{
+	position: absolute;
+	top: 500px;
+	left: 110px;
+	width: 300px;
+	height: 620px;
+}
+
+.photo-wrapper{
+	position: absolute;
+	width: 300px;
+	height: 500px;
+}
+
+.photo-wrapper img{
+	width: 298px;
+	height: 498px;
+}
+
+#contactinfo-environ{
+	display: block;
+	height: 100%;
+	background-color: black;
+	padding: 70px;
+}
+
+#contactinfo-wrapper{
+	width: 100%;
+}
+
+#contactinfo{
+	text-align: left;
+	}	
+
+#deepest, #contactinfo{
+	padding: 50px; 
+	 
+	font-size: clamp(0.6rem, 2.5vw, 2rem);
+}
+
+#departments-row{
+   padding-left: 120px;
+}
+
+#departments-row i{
+	font-size: 3em;
+	color: orange;
+	margin-left: 70px;
+}
+
+#administrators i{
+	margin-left: 80px;
+}
+
+
+#departments-row h1{
+	margin-left: 30px;
+}
+
+#administrators h1{
+	margin-left: 25px;
+}
+
+ div #departments, div #administrators, div #service{
+	width: 300px;
+	padding-left: 70px;
+}
+
+
+
+}
+
+/********Tablet view only*******/
+@media (min-width: 768px) and (max-width: 991px){
+#Tablet{
+  display: block;
+  margin-right: 50px;
+} 
+
+#Mobile{
+  display: none;
+}
+
+.navbar-nav{
+	margin-left: 50px;
+}
+
+#logo-container{
+	width: 120px;
+	height: 75px;
+	margin-right: 10px;
+}
+
+#navbarSupportedContent{
+	margin-left: 0px;
+}
+
+.welcome{
+	top: 100px;
+}
+
+#divider{
+	width: 90px;
+	height: 6px;
+}
+
+
+#medium img{
+	margin: 0px 80px 0px 50px !important;
+	height: 200px;
+	width: 150px !important;
+}
+
+#message-wrapper{
+	widows: 100%;
+	position: relative;
+	top: 100px;
+
+}
+
+.main-wrapper{
+	position: absolute;
+	top: 100px;
+	left: 500px;
+	width: 300px;
+	height: 620px;
+}
+
+.photo-wrapper{
+	position: absolute;
+	width: 300px;
+	height: 500px;
+}
+
+.photo-wrapper img{
+	width: 298px;
+	height: 498px;
+}	
+
+#contactinfo-environ{
+	display: block;
+	height: 100%;
+	background-color: black;
+	padding: 100px;
+}
+
+
+#deepest, #contactinfo{
+	padding: 30px; 
+	 
+	font-size: clamp(0.6rem, 2.5vw, 1rem);
+}
+
+#departments-row i{
+	float: left;
+	font-size: 3em;
+	color: orange;
+	margin-right: 20px;
+}
+}
+
+
+
+/******Desktop view only*******/
+@media (min-width: 992px){
+#Mobile{
+  display: block;
+  margin-right: 300px;
+
+}
+
+#Tablet{
+  display: none;
+}
+
+.navbar-nav{
+	margin-left: 300px;
+}
+
+#navbarSupportedContent{
+	margin-left: 70px;
+}
+
+
+.welcome{
+	top: 100px;
+}
+
+#divider{
+	width: 90px;
+	height: 6px;
+}
+
+#departments-row{
+	margin-left: 80px;
+}
+
+#departments-row i{
+	float: left;
+	font-size: 3em;
+	color: orange;
+	margin-right: 20px;
+}
+
+}
+
